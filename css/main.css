@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+body {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    color: rgb(200, 184, 188);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.cursive {
+    font-family: 'Allura', cursive;
+}
+
+.navbar a {
+    color: rgb(200, 184, 188);
+}
+
+.navbar a:hover {
+    color: rgba(200, 184, 188, 0.5);
+}
+
+.centered {
+    text-align: center;
+}
+
+.content {
+    padding: 5vh;
+}
+
+.card {
+    margin-bottom: 5vh;
+    max-width: 60vw;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card.content {
+    padding: 1vh 5vh;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 6vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 80vw;
+    }
+    body {
+        padding-top: 4vh;
+    }
+}
+
